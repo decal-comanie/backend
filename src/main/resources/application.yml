@@ -3,8 +3,8 @@ spring:
     ansi:
       enabled: always
   datasource:
-    url: jdbc:h2:tcp://localhost/~/bid
-    #    jdbc:h2:mem:test
+#    url: jdbc:h2:tcp://localhost/~/bid
+    url: jdbc:h2:mem:test
     username: sa
     password:
     driver-class-name: org.h2.Driver

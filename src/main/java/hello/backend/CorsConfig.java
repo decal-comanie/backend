@@ -11,6 +11,6 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
                 .allowedMethods("*")
-                .allowedOrigins("https://decal-comanie.web.app", "http://localhost:3000");
+                .allowedOrigins("https://decal-comanie.web.app", "http://localhost:3000", "https://bidmarkit.web.app");
     }
 }
